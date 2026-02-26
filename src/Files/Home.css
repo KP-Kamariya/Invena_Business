@@ -1,0 +1,60 @@
+.bgimg{
+    background-image: url("https://html.themewant.com/invena/assets/images/banner/30.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banner{
+    max-width: 614px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    top: 0;
+}
+.banner::before{
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 710px;
+    height: 710px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color:  #493BFF;
+    opacity: 0.3;
+    z-index: -1;
+}
+.pre-title{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+}
+
+.containt button{
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    background: white;
+    font-weight: 600;
+}
+.banner::after{
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 506px;
+    height: 506px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color:  #493BFF;
+    opacity: 0.3;
+    z-index: -1;
+}
